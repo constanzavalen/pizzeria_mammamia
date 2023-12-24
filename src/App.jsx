@@ -9,7 +9,7 @@ function App() {
     <>
      <NavBarPizza/>
      <Routes>
-      <Route path="/" element= {<Home></Home>} ></Route>
+      <Route path="/home" element= {<Home></Home>} ></Route>
       <Route path="/detalle/:id" element= {<Detalle></Detalle>}></Route>
       <Route path="/carrito" element= {<Carrito></Carrito>}></Route>
       <Route path="*" element= {<NotFound></NotFound>}></Route>

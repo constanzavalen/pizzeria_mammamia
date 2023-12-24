@@ -14,7 +14,7 @@ const NavBarPizza = () => {
   return (
     <Navbar expand="lg" className="bg-success d-flex justify-content-md-between fs-3 sticky-top" >
       <div>
-        <NavLink to="/" className="nav-link" style={{color:'white', paddingLeft:'30px'}}>
+        <NavLink to="/home" className="nav-link" style={{color:'white', paddingLeft:'30px'}}>
         🍕Pizzería Mamma Mia!
         </NavLink> 
         </div>
